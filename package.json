@@ -1,0 +1,25 @@
+{
+  "name": "express-serverless-vercel",
+  "version": "1.0.0",
+  "description": "Express.js serverless API deployed on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "node api/index.js",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["express", "serverless", "vercel", "api"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
